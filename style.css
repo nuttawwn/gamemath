@@ -30,6 +30,14 @@ body {
     background-color: #aa3939;
     border-radius: 5px;
 }
+.gamefooter{
+    bottom: 1%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    border-radius: 5px;
+}
 .grid
 {
     display: grid;
@@ -71,3 +79,22 @@ body {
     color: #d4ee9f;
     font-weight: auto 0;
 }
+.copy-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 60%;
+}
+
+/* .copy-right{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copy-right i {
+    color: #ff004f;
+} */
